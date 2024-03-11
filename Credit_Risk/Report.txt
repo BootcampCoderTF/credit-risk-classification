@@ -2,7 +2,11 @@ Credit Risk Classification
 
 
 Overview of the Analysis:
-We're trying to make a Supervised Machine Learning model that can figure out if a loan is risky or safe. We'll use some data about the loan, like its size, interest rate, and the borrower's income. Then, we'll see if we can predict whether the loan is risky (0) or safe (1) based on that info using a logistic regression model. The following features are used to make the prediction:
+We're trying to make a Supervised Machine Learning model that can figure out if a loan is risky or safe. 
+We'll use some data about the loan, like its size, interest rate, and the borrower's income. 
+Then, we'll see if we can predict whether the loan is risky (0) or safe (1)
+based on that info using a logistic regression model.
+The following features are used to make the prediction:
 How big the loan is (loan_size)
 The interest rate (interest_rate)
 How much money the borrower makes (borrower_income)
@@ -14,20 +18,28 @@ The borrower's total debt (total_debt)
 Here are the steps we took:
 We created the model.
 We trained the model.
-We used a type of supervised machine learning that sorts data based on similarities and characteristics called Logistic Regression.
+We used a type of supervised machine learning that sorts data based on similarities and 
+characteristics called Logistic Regression.
 
 
 Results:
 Machine Learning Model 1:
 This classification report evaluates a model's performance on two classes: 0 and 1.
-Precision: Measures the accuracy of the model's predictions. For class 0, it's 100%, and for class 1, it's 84%.
-Recall: Indicates the model's ability to identify relevant instances. For class 0, it's 99%, and for class 1, it's 94%.
-F1-score: Represents the balance between precision and recall. It's 1.00 for class 0 and 0.89 for class 1.
+Precision: Measures the accuracy of the model's predictions.
+For class 0, it's 100%, and for class 1, it's 84%.
+Recall: Indicates the model's ability to identify relevant instances.
+For class 0, it's 99%, and for class 1, it's 94%.
+F1-score: Represents the balance between precision and recall.
+It's 1.00 for class 0 and 0.89 for class 1.
 Support: Reflects the number of occurrences of each class in the dataset.
 Accuracy: Overall, the model predicts 99% of the loans correctly.
-Macro average: The average precision, recall, and F1-score across both classes. It's 92% precision, 97% recall, and 94% F1-score.
-Weighted average: Similar to the macro average, but weighted by the number of occurrences of each class. It's 99% precision, recall, and F1-score.
+Macro average: The average precision, recall, and F1-score across both classes.
+It's 92% precision, 97% recall, and 94% F1-score.
+Weighted average: Similar to the macro average, but weighted by the number of occurrences of each class.
+It's 99% precision, recall, and F1-score.
 
 
 Summary:
-The model performed very well in classifying loans as healthy or high-risk. It achieved high precision, recall, and F1-scores for both classes, indicating accurate predictions. The overall accuracy was 99%, demonstrating the model's effectiveness in identifying loan statuses.
+The model performed very well in classifying loans as healthy or high-risk.
+It achieved high precision, recall, and F1-scores for both classes, indicating accurate predictions.
+The overall accuracy was 99%, demonstrating the model's effectiveness in identifying loan statuses.
